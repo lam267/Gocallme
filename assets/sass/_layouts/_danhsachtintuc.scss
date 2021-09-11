@@ -1,0 +1,80 @@
+.site {
+    &_main {
+        .main_content {
+            .news_posts {
+                .news_content {
+                    .show_news_list {
+                        .news_title {
+                            font-size: 30px;
+                            font-weight: 300;
+                            line-height: 47px;
+                            color: #000;
+                        }
+                        .news_list_page {
+                            .news_item {
+                                background-color: #f9f9f9;
+                                margin-bottom: 12px;
+                                .content_img {
+                                    padding-left: 0;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                                .content_news {
+                                    h3 {
+                                        font-size: 16px;
+                                        line-height: 25px;
+                                        font-weight: 600;
+                                        color: #000;
+                                        margin-top: 12px;
+                                    }
+                                    p {
+                                        margin: 0;
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                        font-weight: 300;
+                                        color: #3c3c3c;
+                                    }
+                                    span {
+                                        font-size: 12px;
+                                        font-weight: 300;
+                                        color: #adaaaa;
+                                        line-height: 17px;
+                                        margin: 10px 0;
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                        .pagination {
+                            margin-top: 20px;
+                            .paging {
+                                li {
+                                    padding: 10px 15px;
+                                    text-align: center;
+                                    border-color: #adaaaa;
+                                    border-style: solid;
+                                    border-width: 1px 0px 1px 1px;
+                                    a {
+                                        color: #000;
+                                        text-decoration: none;
+                                    }
+                                }
+                                li:hover {
+                                    border-bottom: 5px solid #f9ba22;
+                                }
+                                li:last-child{
+                                    border-right: 1px solid #adaaaa ;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

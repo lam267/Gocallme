@@ -1,0 +1,65 @@
+.site {
+    &_main {
+        .main_content {
+            .content_aboutUs--question {
+                padding: 30px 0;
+                .question_title {
+                    font-size: 30px;
+                    font-weight: 300;
+                    line-height: 26px;
+                    color: #000;
+                    padding: 20px 0;
+                }
+                .content_right {
+                    .info_customer {
+                        input {
+                            padding: 12px 0 12px 35px;
+                            font-size: 14px;
+                        }
+                        .input_wrapper{
+                            position: relative;
+                        }
+                        .input_wrapper:before {
+                            font-family: "Font Awesome 5 Pro";
+                            font-weight: 900;
+                            font-size: 14px;
+                           
+                            position: absolute;
+                            left: 10px;
+                            top: 12px;
+                            pointer-events: none;
+                        }
+                        .name::before{
+                            content: "\f007";
+                        }
+                        .email::before{
+                            content: "\f0e0";
+                        }
+                        .text-area,
+                        input {
+                            background-color: #f5f6f8;
+                        }
+                        ._btn {
+                            padding: 14px 0;
+                            background-color: #ffcb05;
+                            border-radius: 6px;
+                            color: #111;
+                            font-weight: 700;
+                            font-size: 17px;
+                        }
+                        label {
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            color: #949596;
+                        }
+                    }
+                }
+            }
+            .information_rental {
+                padding: 12px 0;
+                background: #f7f7f8;
+            }
+        }
+    }
+}

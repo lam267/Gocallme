@@ -1,0 +1,132 @@
+.site {
+    &_main {
+        .main_content {
+            .contact {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+                .contact_content {
+                    padding: 70px 0 120px 0px;
+                    justify-content: space-between;
+                    .content_left {
+                        .contact_title {
+                            h2 {
+                                font-size: 42px;
+                                font-weight: 600;
+                                color: #000;
+                                line-height: 48px;
+                                margin-bottom: 35px;
+                            }
+                            p {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #000;
+                                line-height: 26px;
+                                margin-bottom: 35px;
+                            }
+                            p.contact_number {
+                                font-weight: 700;
+                                margin-bottom: 15px;
+                                span {
+                                    display: block;
+                                    margin-top: 15px;
+                                    font-size: 50px;
+                                    line-height: 42px;
+                                }
+                            }
+                        }
+                    }
+                    .content_right {
+                        position: relative;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        .fomt_contact {
+                            background-color: #fff;
+                            position: absolute;
+                            top: 0;
+                            left: 15px;
+                            right: 15px;
+                            padding: 0;
+                            border-radius: 10px;
+                            z-index: 1;
+                            .fomt_contact_box {
+                                padding: 35px;
+                                .question_title {
+                                    font-size: 30px;
+                                    font-weight: 300;
+                                    line-height: 26px;
+                                    color: #000;
+                                    margin-bottom: 35px;
+                                }
+                                .form-group:nth-child(2n + 1) {
+                                    padding-right: 0;
+                                }
+                                ._question {
+                                    padding: 0;
+                                    textarea {
+                                        height: 130px;
+                                    }
+                                }
+
+                                input {
+                                    padding: 12px 0 12px 35px;
+                                    font-size: 14px;
+                                }
+                                .input_wrapper {
+                                    position: relative;
+                                }
+                                .input_wrapper:before {
+                                    font-family: "Font Awesome 5 Pro";
+                                    font-weight: 900;
+                                    font-size: 14px;
+
+                                    position: absolute;
+                                    left: 10px;
+                                    top: 12px;
+                                    pointer-events: none;
+                                }
+                                .name::before {
+                                    content: "\f007";
+                                }
+                                .email::before {
+                                    content: "\f0e0";
+                                }
+                                .number::before {
+                                    content: "\f87b";
+                                }
+                                .address::before {
+                                    content: "\f3c5";
+                                }
+                                .text-area,
+                                input {
+                                    background-color: #f5f6f8;
+                                }
+                                ._btn {
+                                    padding: 14px 0;
+                                    background-color: #ffcb05;
+                                    border-radius: 6px;
+                                    color: #111;
+                                    font-weight: 700;
+                                    font-size: 17px;
+                                }
+                                label {
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                    color: #949596;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &_footer {
+        .contact_trademark {
+            padding-top: 200px;
+        }
+    }
+}

@@ -1,0 +1,235 @@
+.site {
+    &_main {
+        .main_content {
+            .content_guide {
+                .guide_step {
+                    .center_text {
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .col-3 {
+                        padding: 0;
+                    }
+                    img {
+                        width: 60px;
+                        height: 55px;
+                    }
+                    p {
+                        margin-top: 10px;
+                        font-size: 13px;
+                        line-height: 17px;
+                        text-align: left;
+                    }
+                    .step {
+                        font-size: 18px;
+                        line-height: 26px;
+                    }
+                }
+            }
+            .information_rental {
+                padding: 12px 0;
+                background: #f7f7f8;
+            }
+            .content_left {
+                .request_tilte {
+                    font-size: 42px;
+                    font-weight: 300;
+                    color: #000;
+                    margin: 44px 0;
+                }
+                .fomt_request {
+                    padding: 44px 44px 30px 44px;
+                    background-color: #fff;
+                    input {
+                        padding: 12px 0 12px 35px;
+                        background-color: #f5f6f8;
+                    }
+                    p.intro_data {
+                        font-size: 13px;
+                        line-height: 26px;
+                        color: #000;
+                        font-weight: 400;
+                    }
+                    p.nation_name {
+                        color: #5a5b5d;
+                    }
+                    .info_customer {
+                        p.info_text {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            text-transform: uppercase;
+                            color: #111;
+                        }
+                        .info_text::before {
+                            content: "";
+                            height: 2px;
+                            width: 180px;
+                            border-bottom: 1px solid #dfdfdf;
+                        }
+                        .info_text::after {
+                            content: "";
+                            height: 2px;
+                            width: 180px;
+                            border-bottom: 1px solid #dfdfdf;
+                        }
+                        p {
+                            color: #b5b5b6;
+                        }
+                        .checkbox-input {
+                            display: none;
+                        }
+                        .checkbox-label {
+                            width: 20px;
+                            height: 20px;
+                            border: 1px solid #eee;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 5px;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            transform: all 0.2s linear;
+                            margin-right: 10px;
+                        }
+                        .checkbox-label i {
+                            opacity: 0;
+                            visibility: hidden;
+                            transform: all 0.2s linear;
+                        }
+                        .checkbox-input:checked + .checkbox-label {
+                            background-color: #f7de2d;
+                            border-color: transparent;
+                        }
+                        .checkbox-input:checked + .checkbox-label i {
+                            color: #eee;
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                    p.company,
+                    p.code {
+                        color: #000;
+                    }
+                }
+                .text_note {
+                    margin-top: 15px;
+                    font-size: 13px;
+                    line-height: 26px;
+                }
+            }
+            .content_right {
+                .rental_title {
+                    border-radius: 5px;
+                    background-color: #f58024;
+                    .holine {
+                        color: #fff;
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        padding: 10px;
+                        i {
+                            font-size: 61px;
+                            margin-right: 40px;
+                        }
+                        p {
+                            font-size: 13px;
+                            span {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+                .purchase_details {
+                    margin-top: 30px;
+                    padding: 36px;
+                    background-color: #fff;
+                    box-shadow: 0px -20px 0px 0px #eaeaea;
+                    border-top-right-radius: 12px;
+                    border-top-left-radius: 14px;
+                    p {
+                        font-size: 15px;
+                        line-height: 26px;
+                        color: #000;
+                        span {
+                            float: right;
+                            font-size: 29px;
+                            font-weight: 300;
+                        }
+                    }
+                    input {
+                        padding: 10px;
+                        background-color: #f5f6f8;
+                        
+                    }
+                    p.total_cost {
+                        padding: 30px 0;
+                        line-height: 26px;
+                        border-bottom: 1px solid #b5b5b6;
+                        span {
+                            font-size: 42px;
+                        }
+                    }
+                    .payments {
+                        p.pay_title {
+                            font-size: 14px;
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                        }
+                        .form_payments {
+                            border: 1px solid #b5b5b6;
+                            .pay_online {
+                                .pay_item {
+                                    padding: 19px;
+                                    background-color: #f2f2f2;
+                                }
+                                .pay_item {
+                                    border-bottom: 1px solid #b5b5b6;
+                                    label {
+                                        font-size: 14px;
+                                        color: #000;
+                                        font-weight: 400;
+                                    }
+                                }
+                                .pay_item:nth-child(1) {
+                                    label {
+                                        font-weight: 400;
+                                    }
+                                }
+                                .pay_item:nth-child(2) {
+                                    label {
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+                            .info_bank {
+                                p.content_text {
+                                    text-align: left;
+                                    font-size: 14px;
+                                    span {
+                                        font-weight: 600;
+                                        font-size: 14px;
+                                    }
+                                }
+                                .stk {
+                                    padding-bottom: 5px;
+                                    border-bottom: 1px solid #b5b5b6;
+                                }
+                            }
+                        }
+                    }
+                }
+                ._btn {
+                    padding: 30px 0;
+                    background-color: #ffcb05;
+                    border-bottom-right-radius: 15px;
+                    border-bottom-left-radius: 15px;
+                    color: #111;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

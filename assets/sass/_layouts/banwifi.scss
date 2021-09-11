@@ -1,0 +1,84 @@
+.site {
+    &_main {
+        .main_content {
+            background-color: #f7f7f8;
+            .content_detail {
+                padding: 30px 0;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .align_item {
+                    align-items: center;
+                }
+                .oder_title {
+                    order: 2;
+                    .detail_item {
+                        h2 {
+                            font-size: 34px;
+                            line-height: 26px;
+                            font-weight: 600;
+                            color: #161d4a;
+                            margin-bottom: 36px;
+                        }
+
+                        .detail_text {
+                            margin-bottom: 46px;
+
+                            h4 {
+                                font-size: 18px;
+                                line-height: 26px;
+                                font-weight: 600;
+                                color: #161d4a;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                line-height: 18px;
+                                font-weight: 400;
+                                color: #161d4a;
+                            }
+                        }
+                    }
+                }
+                .oder_img {
+                    order: 1;
+                    .detail_item_img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .specifications {
+                padding: 40px 0;
+                h2 {
+                    font-size: 25px;
+                    line-height: 26px;
+                    font-weight: 600;
+                    color: #212328;
+                    margin-bottom: 20px;
+                }
+                .specifications_content {
+                    table {
+                        background-color: #fff;
+                    }
+                    tr:nth-child(1) {
+                        td {
+                            border: none;
+                        }
+                    }
+                    tr:nth-child(n-1) {
+                        border-bottom: 1px solid #d9d9d9;
+                    }
+                }
+                .description {
+                    .content_des {
+                        background-color: #fff;
+                        padding: 35px;
+                    }
+                }
+            }
+           
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.site {
+    &_main {
+        .main_content {
+            .news_posts {
+                padding: 30px 0;
+                .news_content {
+                    .news_title {
+                        font-size: 30px;
+                        font-weight: 300;
+                        line-height: 47px;
+                        color: #000;
+                    }
+                    .content_left {
+                        .show_news {
+                            background-color: #f9f9f9;
+                            padding: 40px;
+                            .datetime {
+                                font-size: 12px;
+                                line-height: 17px;
+                                font-weight: 300;
+                            }
+                            .flex {
+                                display: flex;
+                                align-items: center;
+                            }
+                            .list_social {
+                                list-style-type: none;
+                                margin-left: 20px;
+                                li {
+                                    float: left;
+                                    padding: 0 10px;
+                                    i {
+                                        color: #c7c7c7;
+                                    }
+                                }
+                            }
+                            p {
+                                font-size: 16px;
+                                line-height: 30px;
+                                font-weight: 400;
+                                color: #3c3c3c;
+                                text-align: justify;
+                            }
+                            img {
+                                margin: 10px 0;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                .content_right {
+                    .related_news {
+                        .news_list_page {
+                            a {
+                                text-decoration: none;
+                            }
+                            .news_box {
+                                background-color: #f9f9f9;
+                                margin-bottom: 12px;
+                                img {
+                                    width: 100%;
+                                }
+                                .news_text {
+                                    padding: 18px 20px 44px 18px;
+                                    h3 {
+                                        font-size: 16px;
+                                        font-weight: 600;
+                                        color: #111;
+                                        line-height: 25px;
+                                        padding: 0;
+                                        margin-bottom: 5px;
+                                    }
+                                    span {
+                                        font-size: 12px;
+                                        font-weight: 300;
+                                        color: #adaaaa;
+                                        line-height: 17px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .information_rental {
+                padding: 12px 0;
+                background: #f7f7f8;
+            }
+        }
+    }
+}
+
+ul {
+    list-style-type: none;
+}

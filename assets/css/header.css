@@ -1,0 +1,91 @@
+.site_header {
+  position: fixed;
+  position: relative;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0; }
+  .site_header .header_top {
+    padding: 17px 0;
+    align-items: center; }
+    .site_header .header_top .hotline {
+      margin: 0;
+      text-align: right;
+      color: #afafaf;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 26.19px; }
+      .site_header .header_top .hotline i {
+        margin-right: 10px; }
+    .site_header .header_top .nav_top {
+      list-style-type: none;
+      justify-content: flex-end;
+      margin: 0; }
+      .site_header .header_top .nav_top li {
+        margin-left: 32px; }
+        .site_header .header_top .nav_top li a {
+          font-size: 14px;
+          line-height: 26.19px;
+          font-weight: 400;
+          color: #212328; }
+    .site_header .header_top .icon-align-justify {
+      display: none; }
+  .site_header .header_bottom {
+    background-color: #231f20; }
+    .site_header .header_bottom .menu_nav .hNav {
+      padding: 0 15px;
+      list-style-type: none;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0; }
+      .site_header .header_bottom .menu_nav .hNav li a {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #e9ebee;
+        text-decoration: none; }
+      .site_header .header_bottom .menu_nav .hNav li :hover {
+        color: #949596; }
+      .site_header .header_bottom .menu_nav .hNav li ._btn {
+        background-color: #ffca05;
+        font-weight: 700;
+        color: #231f20;
+        text-align: center;
+        border: 0;
+        border-radius: 0; }
+  .site_header .nav_overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: fadeIn linear 0.2s; }
+  .site_header .menu_nav_mobi {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background: #fff;
+    transform: translateX(-100%);
+    transition: transform linear 0.2s; }
+    .site_header .menu_nav_mobi .hNav_mobi .link_mb {
+      color: #11141b;
+      display: block;
+      padding: 8px 0;
+      font-size: 18px; }
+  .site_header .nav_mobi_close {
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 1rem; }
+.site .nav_input {
+  display: none; }
+.site .nav_input:checked ~ .nav_overlay {
+  display: block; }
+.site .nav_input:checked ~ .menu_nav_mobi {
+  transform: translateX(0%); }
+
+/*# sourceMappingURL=header.css.map */

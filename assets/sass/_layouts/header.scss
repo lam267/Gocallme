@@ -1,0 +1,90 @@
+.site {
+    &_header {
+        position: fixed;
+        position: relative;
+        z-index: 100;
+        top: 0;
+        right: 0;
+        left: 0;
+
+        .header_top {
+            padding: 17px 0;
+            align-items: center;
+            .hotline {
+                margin: 0;
+                text-align: right;
+                color: #afafaf;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 26.19px;
+
+                i {
+                    margin-right: 10px;
+                }
+            }
+
+            .nav_top {
+                list-style-type: none;
+                justify-content: flex-end;
+                margin: 0;
+                li {
+                    margin-left: 32px;
+                    a {
+                        font-size: 14px;
+                        line-height: 26.19px;
+                        font-weight: 400;
+                        color: #212328;
+                      
+                    }
+                }
+            }
+
+            .icon-align-justify {
+                display: none;
+            }
+        }
+
+        .header_bottom {
+            background-color: #231f20;
+            .menu_nav {
+                .hNav {
+                    padding: 0 15px;
+                    list-style-type: none;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0;
+                    li {
+                        a {
+                            text-transform: uppercase;
+                            font-weight: 600;
+                            color: #e9ebee;
+                            text-decoration: none;
+                            i{
+                                margin-left: 10px;
+                            }
+                        }
+                        :hover {
+                            color: #949596;
+                        }
+                        ._btn {
+                            background-color: #ffca05;
+                            font-weight: 700;
+                            color: #231f20;
+                            text-align: center;
+                            border: 0;
+                            border-radius: 0;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav_overlay, .menu_nav_mobi ,.nav_input{
+            display: none;
+            margin: 0;
+        }
+
+    }
+
+}

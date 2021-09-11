@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACR,OAAO,EAAE,IAAI;;AAGd,SAAS;EACR,OAAO,EAAE,IAAI;;AAEd,SAAS;EACR,OAAO,EAAE,IAAI;;AAEd,SAAS;EACR,OAAO,EAAE,IAAI;;AAEd,SAAS;EACR,OAAO,EAAE,IAAI",
+"sources": ["../sass/grid.scss"],
+"names": [],
+"file": "grid.min.css"
+}

@@ -1,0 +1,88 @@
+.site {
+    &_main {
+        .main_content {
+            .list_nations {
+                .nations_content {
+                    padding: 50px 0;
+                    .title {
+                        text-align: center;
+                        .font {
+                            font-size: 42px;
+                            line-height: 40px;
+                        }
+                        p.text {
+                            font-size: 15px;
+                            margin: 30px 0 16px 0;
+                        }
+                    }
+
+                    .img {
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .input-group {
+                        margin: 22px 0;
+                        input {
+                            background-color: #fff;
+                            padding: 23px;
+                            border: 1px solid #adaaaa;
+                            font-size: 16px;
+                        }
+                        .input-group-text {
+                            padding: 0 43px;
+                            font-size: 17px;
+                            font-weight: 700;
+                            line-height: 26px;
+                            border-left: none;
+                            text-transform: uppercase;
+                            background-color: #ffcb05;
+                        }
+                    }
+                    .continents_list {
+                        .continents_item {
+                            display: flex;
+                            align-items: center;
+                            .continents {
+                                padding: 70px 0;
+                                text-align: center;
+                                .name_continent {
+                                    font-size: 30px;
+                                    line-height: 26px;
+                                    color: #fff;
+                                    font-weight: 400;
+                                }
+                            }
+                            .nation_name{
+                                font-size: 16px;
+                                line-height: 26px;
+                                font-weight: 400;
+                            }
+                        }
+                        .continents_item:nth-child(2n + 1) {
+                            border: 1px solid #adaaaa;
+                            .continents {
+                                background-color: #f58024;
+                            }
+                            .nation_name {
+                                margin: 0;
+
+                            }
+                        }
+                        .continents_item:nth-child(2n) {
+                            border-left: 1px solid #adaaaa;
+                            border-right: 1px solid #adaaaa;
+                            .continents {
+                                background-color: #ffcb05;
+                            }
+                            .nation_name {
+                                margin: 0;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
