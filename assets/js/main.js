@@ -144,3 +144,10 @@ function openContinent(Continent) {
 //     $('#datetimepicker1').datetimepicker();
 //     $('#datetimepicker2').datetimepicker();
 // });
+$(function () {
+  $('.target').scroll();
+});
+$(function () {
+  $("#datepicker_go").datepicker();
+  $("#datepicker_on").datepicker();
+});

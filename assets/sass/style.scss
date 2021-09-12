@@ -68,12 +68,13 @@
                         font-weight: 600;
                         color: #212328;
                         margin-bottom: 26px;
+                        line-height: 46px;
 
                         .in {
                             font-size: 38px;
                             font-weight: 300;
                             color: #212328;
-                            line-height: 26px;
+                            line-height: 40px;
                         }
                     }
 
@@ -198,6 +199,7 @@
 
                     h2 {
                         font-size: 42.02px;
+                        line-height: 50px;
                         font-weight: 700;
                         color: #212328;
 
@@ -220,6 +222,11 @@
                         }
                         ._border:nth-child(2) {
                             border-bottom: 1px solid #a8a9aa;
+                        }
+                        ._border:last-child{
+                            border-top: 1px solid #a8a9aa;
+                            border-left:  1px solid #a8a9aa;
+                            border-right: none;
                         }
                         .reason_item {
                             margin-top: 20px;
@@ -259,6 +266,7 @@
                     h2 {
                         font-size: 34px;
                         font-weight: 400;
+                        line-height: 40px;
                         color: #161d4a;
                         margin-bottom: 36px;
                     }
@@ -267,14 +275,14 @@
                         margin-bottom: 46px;
 
                         h4 {
-                            // font-size: 18px;
+                            font-size: 18px;
                             line-height: 26px;
                             font-weight: 600;
                             color: #161d4a;
                         }
 
                         p {
-                            // font-size: 14px;
+                            font-size: 14px;
                             line-height: 18px;
                             font-weight: 400;
                             color: #161d4a;
@@ -305,6 +313,7 @@
                         .article_title {
                             font-size: 34px;
                             font-weight: 400;
+                            line-height: 40px;
                             color: #161d4a;
                             margin: 25px 0;
                         }
@@ -357,6 +366,7 @@
                     .guide_title {
                         h2 {
                             font-size: 42px;
+                            line-height: 50px;
                             font-weight: 400;
                             color: #231f20;
                             margin-bottom: 65px;
@@ -535,6 +545,7 @@
 
                     h2 {
                         font-size: 30px;
+                        line-height: 38px;
                         font-weight: 300;
                         color: #212328;
                     }

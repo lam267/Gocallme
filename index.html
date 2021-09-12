@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="./assets/libs/slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="./assets/css/style.min.css">
     <link rel="stylesheet" href="./assets/css/responsive.min.css">
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js">
-
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <title>index</title>
 </head>
 
@@ -29,7 +28,8 @@
                             <label for="nav_input_mobi"> <i class="fas fa-align-justify"></i></label>
                         </div>
                         <div class="col-9 col-sm-4 col-md-3 col-xl-3 col-lg-4  ">
-                            <div class="logo"><a href="index.html"><img src="./assets/images/logo_header.png" alt="logo"></a>
+                            <div class="logo"><a href="index.html"><img src="./assets/images/logo_header.png"
+                                        alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-0 col-sm-7 col-md-9 col-lg-8  col-xl-9 support ">
@@ -50,9 +50,11 @@
                     <nav class="menu_nav">
                         <ul class="hNav row">
                             <li><a href="thuewifi.html">Thuê Máy Phát Wifi</a></li>
-                            <li class="hevron"><a href="banwifi.html">Mua Máy Phát Wifi<i class="fas fa-chevron-down"></i></a>
+                            <li class="hevron"><a href="banwifi.html">Mua Máy Phát Wifi<i
+                                        class="fas fa-chevron-down"></i></a>
                             </li>
-                            <li class="chevron"><a href="bansim.html">Sim 4G Quốc Tế <i class="fas fa-chevron-down"></i></a>
+                            <li class="chevron"><a href="bansim.html">Sim 4G Quốc Tế <i
+                                        class="fas fa-chevron-down"></i></a>
                             </li>
                             <li><a href="danhsachquocgia.html">Danh Sách Quốc Gia </i></a></li>
                             <li><a href="danhsachtintuc.html">Khuyến Mãi</i></a></li>
@@ -1143,23 +1145,14 @@
                                             <div class="row">
                                                 <div class="form-group col">
                                                     <label class="" for="">Ngày đi</label>
-                                                    <div class="input-group date" id="datetimepicker1">
-                                                        <input type="text" class="form-control">
-                                                        <span class="input-group-addon">
-                                                            <span class="glyphicon glyphicon-calendar"></span>
-                                                        </span>
-                                                    </div>
+                                                    <input type="text" id="datepicker_go">
                                                 </div>
                                                 <div class="form-group col ">
                                                     <label class="" for="">Ngày về</label>
-                                                    <div class="input-group date" id="datetimepicker1">
-                                                        <input type="text" class="form-control">
-                                                        <span class="input-group-addon">
-                                                            <span class="glyphicon glyphicon-calendar"></span>
-                                                        </span>
-                                                    </div>
+                                                    <input type="text" id="datepicker_on">
                                                 </div>
                                             </div>
+
                                             <div class="row">
                                                 <div class="form-group col">
                                                     <label class="" for="">Dung lượng</label>
@@ -1271,19 +1264,12 @@
     <!-- end Modal -->
 </body>
 
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 <script src="./assets/bootstrap/js/tests/vendor/jquery-1.9.1.min.js"></script>
 <script src="./assets/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- <script src="./assets/bootstrap/assets/js/vendor/popper.min.js"></script> -->
 <script src="./assets/libs/jquery/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="./assets/libs/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
-
 <script src="./assets/js/main.js"></script>
-
-<script>
-    $(function () {
-        $('.target').scroll();
-    });
-</script>
 
 </html>

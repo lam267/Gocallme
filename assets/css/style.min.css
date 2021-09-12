@@ -766,12 +766,13 @@ ul {
       font-size: 38px;
       font-weight: 600;
       color: #212328;
-      margin-bottom: 26px; }
+      margin-bottom: 26px;
+      line-height: 46px; }
       .site_main .main_content .content_intro .intro_title h2 .in {
         font-size: 38px;
         font-weight: 300;
         color: #212328;
-        line-height: 26px; }
+        line-height: 40px; }
     .site_main .main_content .content_intro .intro_title p {
       font-size: 14px;
       font-weight: 400;
@@ -862,6 +863,7 @@ ul {
   text-align: center; }
   .site_main .main_content .content_reason .reason_why h2 {
     font-size: 42.02px;
+    line-height: 50px;
     font-weight: 700;
     color: #212328; }
     .site_main .main_content .content_reason .reason_why h2 span {
@@ -878,6 +880,10 @@ ul {
       border-right: 1px solid #a8a9aa; }
     .site_main .main_content .content_reason .reason_why .reason_lists ._border:nth-child(2) {
       border-bottom: 1px solid #a8a9aa; }
+    .site_main .main_content .content_reason .reason_why .reason_lists ._border:last-child {
+      border-top: 1px solid #a8a9aa;
+      border-left: 1px solid #a8a9aa;
+      border-right: none; }
     .site_main .main_content .content_reason .reason_why .reason_lists .reason_item {
       margin-top: 20px; }
       .site_main .main_content .content_reason .reason_why .reason_lists .reason_item img {
@@ -901,15 +907,18 @@ ul {
   .site_main .main_content .content_detail .detail_item h2 {
     font-size: 34px;
     font-weight: 400;
+    line-height: 40px;
     color: #161d4a;
     margin-bottom: 36px; }
   .site_main .main_content .content_detail .detail_item .detail_text {
     margin-bottom: 46px; }
     .site_main .main_content .content_detail .detail_item .detail_text h4 {
+      font-size: 18px;
       line-height: 26px;
       font-weight: 600;
       color: #161d4a; }
     .site_main .main_content .content_detail .detail_item .detail_text p {
+      font-size: 14px;
       line-height: 18px;
       font-weight: 400;
       color: #161d4a; }
@@ -927,6 +936,7 @@ ul {
     .site_main .main_content .content_article .oder_title .article_item .article_title {
       font-size: 34px;
       font-weight: 400;
+      line-height: 40px;
       color: #161d4a;
       margin: 25px 0; }
     .site_main .main_content .content_article .oder_title .article_item .parag {
@@ -961,6 +971,7 @@ ul {
     text-align: center; }
     .site_main .main_content .content_guide .guide_step .guide_title h2 {
       font-size: 42px;
+      line-height: 50px;
       font-weight: 400;
       color: #231f20;
       margin-bottom: 65px; }
@@ -1072,6 +1083,7 @@ ul {
     margin-bottom: 50px; }
     .site_main .main_content .content_news_event .news_title h2 {
       font-size: 30px;
+      line-height: 38px;
       font-weight: 300;
       color: #212328; }
   .site_main .main_content .content_news_event .news_list .slider_ourteam_images {
